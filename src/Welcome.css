@@ -1,0 +1,27 @@
+.welcome {
+	background-image: url('./images/mainBG.jpg');
+	background-repeat: no-repeat;
+	margin-top: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	height: 700px;
+}
+
+.welcomeMsg {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 25px;
+	color: white;
+	width: 65%;
+	height: 350px;
+	border: black solid 3px;
+	transform: translate(25%, 50%);
+}
+
+.welcomeMsg p {
+	padding: 15px;
+	margin-top: -20px;
+}

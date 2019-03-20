@@ -1,0 +1,51 @@
+.navContainer {
+	width: 100%;
+	height: 150px;
+	margin-top: -175px;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	z-index: 1;
+}
+
+#navLogo {
+	width: 250px;
+}
+
+.linksWrapper {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 35px;
+}
+.navLinks {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	list-style: none;
+}
+
+.navLink {
+	margin: 15px;
+	font-size: 20px;
+}
+
+.navLink a {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+
+.navLink a:visited {
+	text-decoration: none;
+}
+
+.navLink a:hover {
+	text-decoration: underline;
+	text-decoration-color: lightseagreen;
+}
+
+.navLink a:active {
+	text-decoration: underline;
+}

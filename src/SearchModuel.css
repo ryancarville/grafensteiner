@@ -1,17 +1,16 @@
 .seachModWrapper {
 	background-image: url('./images/listings/home2.jpg');
 	background-repeat: no-repeat;
-	margin-top: 170px;
-	margin-left: 8%;
-	width: 85%;
+	margin-top: 500px;
+	width: 100%;
 	height: 500px;
 	display: inline-flex;
 }
 .searchModuel {
 	box-sizing: border-box;
 	background-color: rgba(0, 145, 255, 0.5);
-	margin-left: 5%;
-	margin-top: 8%;
+	margin-left: 10%;
+	margin-top: 9%;
 	width: 50%;
 	height: 250px;
 	padding: 10px;

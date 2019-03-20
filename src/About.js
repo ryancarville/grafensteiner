@@ -1,13 +1,10 @@
 import React from 'react';
-import DataCounter from './DataCounter';
-import SearchModuel from './SearchModuel';
-import './Welcome.css';
-
-export default function Welcome() {
-	return (
-		<div className='welcome'>
-			<div className='welcomeMsg'>
-				<h2>Welcome!</h2>
+import './About.css';
+const About = () => (
+	<section>
+		<div className='aboutPage'>
+			<div className='aboutMsg'>
+				<h2>About Me</h2>
 				<p>
 					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -18,8 +15,8 @@ export default function Welcome() {
 					culpa qui officia deserunt mollit anim id est laborum."
 				</p>
 			</div>
-			<SearchModuel />
-			<DataCounter />
 		</div>
-	);
-}
+	</section>
+);
+
+export default About;

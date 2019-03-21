@@ -1,8 +1,13 @@
 import React from 'react';
 import './Commercial.css';
+import Content from './Content';
+import SearchModuel from './SearchModuel';
+
 const Commercial = () => (
 	<section>
 		<div className='commercialPage'>
+			<SearchModuel className='commercialSearch' />
+			<Content />
 			<div className='commercialMsg'>
 				<h2>Commercial Real Estate is in out blood!</h2>
 				<p>

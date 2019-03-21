@@ -1,11 +1,15 @@
 import React from 'react';
 import './Residential.css';
+import SearchModuel from './SearchModuel';
+import Content from './Content';
 
 const Residential = () => (
 	<section>
 		<div className='residentialPage'>
+			<SearchModuel />
+			<Content />
 			<div className='residentialMsg'>
-				<h2>residential Real Estate is in out blood!</h2>
+				<h2>Residential Real Estate</h2>
 				<p>
 					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

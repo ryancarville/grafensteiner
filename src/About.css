@@ -1,5 +1,5 @@
 .aboutPage {
-	background-image: url('./images/commercialBG.jpg');
+	background-image: url('./images/aboutBG.jpg');
 	background-repeat: no-repeat;
 	margin-top: 170px;
 	margin-left: auto;
@@ -19,6 +19,7 @@
 	height: 350px;
 	border: black solid 3px;
 	transform: translate(25%, 50%);
+	box-shadow: 0px 0px 200px 0px rgb(255, 255, 255, 0.5);
 }
 
 .aboutMsg p {

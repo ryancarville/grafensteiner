@@ -1,45 +1,70 @@
 .seachModWrapper {
-	background-image: url('./images/listings/home2.jpg');
+	background-color: rgba(255, 255, 255, 0.5);
 	background-repeat: no-repeat;
-	margin-top: 500px;
-	width: 100%;
+	border: black solid 1px;
+	margin: 50px;
+	width: 50%;
 	height: 500px;
 	display: inline-flex;
+	margin-top: 100px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 100px 0px white;
 }
 .searchModuel {
 	box-sizing: border-box;
-	background-color: rgba(0, 145, 255, 0.5);
-	margin-left: 10%;
-	margin-top: 9%;
-	width: 50%;
-	height: 250px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: black solid 1px;
+	width: 80%;
+	height: 500px;
 	padding: 10px;
 }
 
 .mainSearchInput {
-	width: 400px;
+	padding: 5px;
+	width: 300px;
 	height: 25px;
-	float: right;
-	margin-top: -150px;
-	margin-right: 15px;
+
+	margin-top: 150px;
+	margin-right: 10px;
+	font-size: 15px;
 }
 
 .mainSearchBtn {
+	color: white;
+	background-color: rgba(123, 123, 123, 0.5);
 	width: 100px;
 	height: 100px;
-	margin-top: -100px;
 	float: right;
-	margin-right: 15px;
-
+	margin: 10px;
+	margin-top: 30px;
 	border-radius: 100px;
+	font-size: 20px;
 }
 
 .searchCatag {
+	color: white;
 	border: none;
-	margin-top: 20px;
+	display: inline;
+	text-shadow: 1px 1px black;
+}
+
+.searchType {
+	margin-top: 5px;
+	border: none;
+	display: inline-block;
+	text-shadow: 1px 1px black;
+}
+
+label {
+	font-size: 25px;
+	color: whitesmoke;
 }
 .radioBtn {
-	margin-top: 10px;
-	margin-left: 20px;
-	vertical-align: bottom;
+	width: 20px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+#homeSearch {
+	margin-top: 200px;
 }

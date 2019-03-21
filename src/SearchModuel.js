@@ -1,9 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SearchModMsg from './SearchModMsg';
 import SearchBar from './SearchBar';
 import './SearchModuel.css';
+import RangeSlider from './RangeSlider';
 
 export default class SearchModuel extends React.Component {
+	constructor(props) {
+		super(props);
+	}
 	render() {
 		return (
 			<div className='seachModWrapper'>
@@ -31,6 +36,8 @@ export default class SearchModuel extends React.Component {
 								Residential
 							</div>
 							<br />
+						</fieldset>
+						<fieldset className='searchType'>
 							<label for='radioBtn'>Type</label>
 							<div>
 								<input
@@ -60,11 +67,14 @@ export default class SearchModuel extends React.Component {
 								Rent
 							</div>
 						</fieldset>
+						<RangeSlider />
 						<SearchBar />
 
-						<button className='mainSearchBtn' type='submit'>
-							Search
-						</button>
+						<Link to='/results'>
+							<button className='mainSearchBtn' type='submit'>
+								Search
+							</button>
+						</Link>
 					</form>
 				</div>
 			</div>

@@ -14,7 +14,7 @@ export default class Search extends React.Component {
 			<>
 				<div className='resultsCounter'>
 					<header>
-						<h2>Results</h2>
+						<h2>4 Properties for you</h2>
 					</header>
 				</div>
 				<div className='seachResults'>

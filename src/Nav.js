@@ -10,13 +10,15 @@ const Nav = () => (
 		<Languages />
 		<KeywordSearch />
 		<div className='linksWrapper'>
-			<img src={logo} alt='logo' id='navLogo' />
+			<Link to='/'>
+				<img src={logo} alt='logo' id='navLogo' />
+			</Link>
 			<ul className='navLinks'>
 				<li className='navLink' id='navCommercial'>
-					<Link to='/com'>Commercial</Link>
+					<Link to='/commercial'>Commercial</Link>
 				</li>
 				<li className='navLink' id='navResidential'>
-					<Link to='/res'>Residential</Link>
+					<Link to='/residential'>Residential</Link>
 				</li>
 				<li className='navLink' id='navBio'>
 					<Link to='/about'>About</Link>

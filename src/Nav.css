@@ -1,14 +1,15 @@
 .navContainer {
 	width: 100%;
-	height: 150px;
+	height: 100px;
 	margin-top: -175px;
 	background-color: rgba(0, 0, 0, 0.9);
 	position: fixed;
 	z-index: 1;
+	box-shadow: 0px 0px 50px 0px black;
 }
 
 #navLogo {
-	width: 250px;
+	width: 300px;
 }
 
 .linksWrapper {
@@ -16,7 +17,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	margin-top: 35px;
+	margin-top: 10px;
 }
 .navLinks {
 	display: flex;
@@ -24,6 +25,7 @@
 	justify-content: space-around;
 	color: white;
 	list-style: none;
+	margin-right: 20px;
 }
 
 .navLink {
@@ -31,21 +33,51 @@
 	font-size: 20px;
 }
 
+:root {
+	--startColor: #ff0000;
+	--mainColor: #ffffff;
+}
+
 .navLink a {
 	cursor: pointer;
 	color: white;
 	text-decoration: none;
-}
-
-.navLink a:visited {
+	background: linear-gradient(
+		to bottom,
+		var(--startColor) 0%,
+		var(--mainColor) 100%
+	);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 4px 4px;
 	text-decoration: none;
+	transition: background-size 1s;
 }
 
 .navLink a:hover {
-	text-decoration: underline;
-	text-decoration-color: lightseagreen;
+	color: rgb(75, 75, 75);
+	background-size: 20px 60px;
 }
 
-.navLink a:active {
-	text-decoration: underline;
+@keyframes linkhover {
+	0% {
+		top: 0px;
+		background: red;
+		width: 100px;
+	}
+	100% {
+		top: 200px;
+		background: yellow;
+		width: 300px;
+	}
+}
+/*dropDown Mentus */
+
+.commercialDropMenu {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border: black solid 2px;
+	margin-top: 150px;
 }

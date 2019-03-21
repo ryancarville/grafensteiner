@@ -3,12 +3,8 @@ import { Link } from 'react-router-dom';
 import SearchModMsg from './SearchModMsg';
 import SearchBar from './SearchBar';
 import './SearchModuel.css';
-import RangeSlider from './RangeSlider';
 
 export default class SearchModuel extends React.Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		return (
 			<div className='seachModWrapper'>
@@ -67,7 +63,7 @@ export default class SearchModuel extends React.Component {
 								Rent
 							</div>
 						</fieldset>
-						<RangeSlider />
+
 						<SearchBar />
 
 						<Link to='/results'>

@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => (
 	<>
 		<div className='footer'>
-			<a>PlaceHolder for links in footer</a>
+			<p>PlaceHolder for links in footer</p>
 		</div>
 	</>
 );

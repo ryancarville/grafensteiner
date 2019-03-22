@@ -23,7 +23,6 @@ export default class Welcome extends React.Component {
 							sunt in culpa qui officia deserunt mollit anim id est laborum."
 						</p>
 					</div>
-					<WelcomeSearchBar />
 					<DataCounter />
 				</div>
 			</>

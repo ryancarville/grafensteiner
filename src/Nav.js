@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Languages from './Languages';
-import KeywordSearch from './KeywordSearch';
+
 import logo from './images/logoWhite.png';
 import './Nav.css';
 
@@ -10,7 +10,7 @@ class Nav extends React.Component {
 		return (
 			<nav className='navContainer'>
 				<Languages />
-				<KeywordSearch />
+
 				<div className='linksWrapper'>
 					<Link to='/'>
 						<img src={logo} alt='logo' id='navLogo' />
@@ -22,6 +22,7 @@ class Nav extends React.Component {
 						<li className='navLink' id='navResidential'>
 							<Link to='/residential'>Residential</Link>
 						</li>
+
 						<li className='navLink' id='navBio'>
 							<Link to='/about'>About</Link>
 						</li>

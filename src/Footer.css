@@ -1,11 +1,11 @@
 .footerWrapper {
-	margin-top: 40%;
+	margin-top: 150%;
 }
 
 .footer {
 	border: black solid 1px;
 	background-color: rgb(255, 0, 0, 0.8);
-	height: 400px;
+	height: 200px;
 	display: block;
 	justify-content: center;
 }
@@ -13,4 +13,23 @@
 .footer > a {
 	font-size: 20px;
 	margin-top: 50px;
+}
+
+@media only screen and (min-width: 1000px) {
+	.footerWrapper {
+		margin-top: 30%;
+	}
+
+	.footer {
+		border: black solid 1px;
+		background-color: rgb(255, 0, 0, 0.8);
+		height: 400px;
+		display: block;
+		justify-content: center;
+	}
+
+	.footer > a {
+		font-size: 20px;
+		margin-top: 50px;
+	}
 }

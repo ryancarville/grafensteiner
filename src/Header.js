@@ -1,9 +1,10 @@
 import React from 'react';
 import Nav from './Nav';
-import './Nav.css';
+import KeywordSearch from './KeywordSearch';
 
 const Header = () => (
 	<header>
+		<KeywordSearch />
 		<Nav />
 	</header>
 );

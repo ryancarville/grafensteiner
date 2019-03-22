@@ -3,8 +3,10 @@ import './Footer.css';
 
 const Footer = () => (
 	<>
-		<div className='footer'>
-			<p>PlaceHolder for links in footer</p>
+		<div className='footerWrapper'>
+			<div className='footer'>
+				<p>PlaceHolder for links in footer</p>
+			</div>
 		</div>
 	</>
 );

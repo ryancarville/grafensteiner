@@ -7,6 +7,7 @@ import Residential from './Residential';
 import About from './About';
 import Contact from './Contact';
 import Results from './Results';
+import Footer from './Footer';
 
 import './Main.css';
 
@@ -22,6 +23,7 @@ const Main = () => (
 				<Route exact path='/results' component={Results} />
 			</Switch>
 		</main>
+		<Footer />
 	</>
 );
 export default Main;

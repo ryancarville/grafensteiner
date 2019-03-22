@@ -2,7 +2,6 @@ import React from 'react';
 import './Commercial.css';
 import Content from './Content';
 import SearchModuel from './SearchModuel';
-import Footer from './Footer';
 
 class Commercial extends React.Component {
 	componentDidMount() {
@@ -29,7 +28,6 @@ class Commercial extends React.Component {
 						</div>
 					</div>
 				</section>
-				<Footer />
 			</>
 		);
 	}

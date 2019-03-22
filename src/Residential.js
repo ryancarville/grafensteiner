@@ -2,7 +2,6 @@ import React from 'react';
 import './Residential.css';
 import SearchModuel from './SearchModuel';
 import Content from './Content';
-import Footer from './Footer';
 
 class Residential extends React.Component {
 	componentDidMount() {
@@ -29,7 +28,6 @@ class Residential extends React.Component {
 						</div>
 					</div>
 				</section>
-				<Footer />
 			</>
 		);
 	}

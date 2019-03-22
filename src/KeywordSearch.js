@@ -11,7 +11,7 @@ export default function KeywordSearch() {
 
 			<Link to='/results'>
 				<button type='button' id='keywordBtn' onClick={Results}>
-					Submit
+					Search
 				</button>
 			</Link>
 		</form>

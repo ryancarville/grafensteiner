@@ -45,7 +45,7 @@ class Contact extends React.Component {
 													<br />
 													<input
 														type='text'
-														placeholder='Valid email ID'
+														placeholder='Valid email address'
 														name='email'
 														id='email'
 														size='30'
@@ -72,7 +72,10 @@ class Contact extends React.Component {
 													/>
 													<br />
 												</article>
-
+												<div id='newsletter'>
+													<input type='radio' id='newsletter' />
+													Click me if you want to receive our monthly newsletter
+												</div>
 												<article>
 													<textarea
 														placeholder='Your Message'
